@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LYt-sa-dWR">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -32,7 +32,7 @@
                     <navigationItem key="navigationItem" id="prH-xU-729">
                         <barButtonItem key="rightBarButtonItem" title="add" style="plain" id="pps-Ub-f5g">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="ddu-Gy-FZh"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="addMeal" id="ddu-Gy-FZh"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
